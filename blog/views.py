@@ -7,3 +7,4 @@ class PostList(generic.ListView):
     # pylint: disable=no-member
     queryset = Post.objects.filter(status=1)
     template_name = "post_list.html"
+    
